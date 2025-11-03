@@ -1,1 +1,141 @@
 /*  your css code here. If applicable */
+  /* Custom styling for shopping cart */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Block heading styles */
+        .block-heading {
+            text-align: center;
+            padding: 40px 20px 30px;
+        }
+        
+        .block-heading h1 {
+            color: #3b99e0;
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        
+        .block-heading p {
+            color: #6c757d;
+            font-size: 16px;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Product block styles */
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product .row {
+            align-items: center;
+        }
+        
+        .product img {
+            max-width: 120px;
+            height: auto;
+        }
+        
+        .product h6 {
+            color: #3b99e0;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .product p {
+            color: #6c757d;
+            font-size: 14px;
+            margin: 3px 0;
+        }
+        
+        .product .quantity-label {
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .product input[type="number"] {
+            width: 80px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .product .price {
+            color: #333;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        /* Summary block styles */
+        .summary {
+            background-color: #f7fbff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-top: 3px solid #5ea4f3;
+        }
+        
+        .summary h2 {
+            color: #333;
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        
+        .summary .summary-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 16px;
+        }
+        
+        .summary .summary-item:last-of-type {
+            border-bottom: 2px solid #5ea4f3;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        .summary .summary-item span:first-child {
+            color: #6c757d;
+        }
+        
+        .summary .summary-item span:last-child {
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .summary button {
+            width: 100%;
+            padding: 15px;
+            background-color: #3b99e0;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .summary button:hover {
+            background-color: #2a7bc0;
+        }
+        
+        @media (max-width: 991px) {
+            .summary {
+                margin-top: 30px;
+            }
+        }

@@ -4,10 +4,132 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    
+    <!-- Bootstrap CSS v5.0 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!-- Block Heading -->
+    <div class="block-heading">
+        <h1>Shopping cart</h1>
+        <p>The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>
+    </div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <div class="row">
+            <!-- Product Column (col-lg-8) -->
+            <div class="col-lg-8">
+                
+                <!-- Product Block 1 -->
+                <div class="product">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://images.unsplash.com/photo-1592286927505-2fd0d113e0c7?w=300&h=300&fit=crop" class="img-fluid" alt="iPhone">
+                        </div>
+                        <div class="col-md-4">
+                            <h6>I am very sorry</h6>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="quantity-label">Quantity:</p>
+                            <input type="number" value="0" min="0" class="form-control">
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <p class="price">$120</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Block 2 -->
+                <div class="product">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://images.unsplash.com/photo-1592286927505-2fd0d113e0c7?w=300&h=300&fit=crop" class="img-fluid" alt="iPhone">
+                        </div>
+                        <div class="col-md-4">
+                            <h6>I am very sorry</h6>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="quantity-label">Quantity:</p>
+                            <input type="number" value="1" min="0" class="form-control">
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <p class="price">$120</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Block 3 -->
+                <div class="product">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://images.unsplash.com/photo-1592286927505-2fd0d113e0c7?w=300&h=300&fit=crop" class="img-fluid" alt="iPhone">
+                        </div>
+                        <div class="col-md-4">
+                            <h6>I am very sorry</h6>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="quantity-label">Quantity:</p>
+                            <input type="number" value="1" min="0" class="form-control">
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <p class="price">$120</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Summary Column (col-lg-4) -->
+            <div class="col-lg-4">
+                <div class="summary">
+                    <h2>Summary</h2>
+                    
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span>$360</span>
+                    </div>
+                    
+                    <div class="summary-item">
+                        <span>Discount</span>
+                        <span>$0</span>
+                    </div>
+                    
+                    <div class="summary-item">
+                        <span>Shipping</span>
+                        <span>$0</span>
+                    </div>
+                    
+                    <div class="summary-item">
+                        <span>Total</span>
+                        <span>$360</span>
+                    </div>
+                    
+                    <button type="button">checkout</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
