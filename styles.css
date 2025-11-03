@@ -1,5 +1,4 @@
-/*  your css code here. If applicable */
-  /* Custom styling for shopping cart */
+/* Custom styling for shopping cart */
         body {
             background-color: #f0f0f0;
             font-family: Arial, sans-serif;
@@ -24,6 +23,15 @@
             line-height: 1.6;
             max-width: 600px;
             margin: 0 auto;
+        }
+        
+        .block-heading a {
+            color: #3b99e0;
+            text-decoration: none;
+        }
+        
+        .block-heading a:hover {
+            text-decoration: underline;
         }
         
         /* Product block styles */
